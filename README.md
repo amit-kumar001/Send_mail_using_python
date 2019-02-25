@@ -13,6 +13,15 @@
 <li><strong>sendmail() </strong> method is used to send mail.</li>
 </ol>
 
+### Required Permission in google account 
+<ol>
+To send  mail using python language,  we have to give some permission in google account.  
+  
+open sender google account -> select security option ->click on Less secure app access ->Allow less secure apps: ON
+This permission allows us to send mail.
+</ol>  
+
+
 
 ### Result in mail  
 
