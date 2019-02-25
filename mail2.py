@@ -1,8 +1,6 @@
-# Python code to illustrate Sending mail from
-# your Gmail account
 import smtplib
-e_user='provide mail id from you want to send mail'
-e_send='provide mail id which you want to send mail'
+e_user='SENDER MAIL_ID'
+e_send='RECEIVER MAIL_ID'
 
 # creates SMTP session
 
@@ -15,7 +13,7 @@ s.starttls()
 s.login(e_user, "Password")
 
 # message to be sent
-message = "i'm too excited and sir make me calm"
+message = "I'm too excited and sir make me calm"
 
 # sending the mail
 s.sendmail(e_user, e_send, message)
